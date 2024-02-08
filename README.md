@@ -1,0 +1,1 @@
+# training-Freeplane-script-GPT
