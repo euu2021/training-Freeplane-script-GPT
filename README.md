@@ -9,7 +9,11 @@ The prompt that I'm using:
 
 The files that I'm using to feed the GPT:
 
-⚠️Disclaimer: scripts can change the information in the map, and even another files in the PC (if permissions are given). So, be careful when using it. Backup files and test extensively, before using a script in a map with important information.
+If you manage to make improvements in the GPT, please share it, so we can collectively work on it.
+
+Please, share with with the Freeplane community anything interesting that you create.
+
+⚠️Disclaimer: scripts can change the information in the map, and even another files in the PC (if permissions are given). So, be careful when using it. Before using a script in a map with important information, backup files and test extensively.
 
 # Sequence of Levels
 ## ⬜ simple single method
