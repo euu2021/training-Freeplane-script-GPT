@@ -1,6 +1,6 @@
 # training-Freeplane-script-GPT
 
-- What: Training a custom GPT bot to create Freeplane scripts This is the chat bot: https://chat.openai.com/g/g-GHr7occhP-freeplane-scripts-creator
+- What: Training a custom GPT bot to create Freeplane scripts This is the chat bot (Requires ChatGPT Plus): https://chat.openai.com/g/g-GHr7occhP-freeplane-scripts-creator
 
   
 - How: My method will be to create a sequence of tests that need to be passed by the bot. The tests increase in complexity. The idea is that, if the bot doesn't pass a test, I change the prompts and reference material until it does. This way, the prompt engineering focuses on building the foundational skills, first.
