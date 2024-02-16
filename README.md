@@ -1,13 +1,18 @@
 # training-Freeplane-script-GPT
 
-- What: Training a custom GPT bot to create Freeplane scripts This is the chat bot (Requires ChatGPT Plus): https://chat.openai.com/g/g-GHr7occhP-freeplane-scripts-creator
-
+- What: Training a custom GPT bot to create Freeplane scripts 
   
 - How: In order to train the bot, my method will be to create a sequence of tests that need to be passed by the bot. The tests increase in complexity. The idea is that, if the bot doesn't pass a test, I change the prompts and reference material until it does. This way, the prompt engineering focuses on building the foundational skills, first.
 
+This is the chat bot (Requires ChatGPT Plus): https://chat.openai.com/g/g-GHr7occhP-freeplane-scripts-creator
+The bot uses actions to communicate with the Github repositories (see bellow), so it eill ask for permissions when creating the script.
+
 The prompt that I'm using: [prompt](prompt)
 
-The files that I'm using to feed the GPT: [folder knowledge_base](knowledge_base). The reference.groovy file is similar to [the file in the docs](https://github.com/freeplane/docs/edit/main/src/docs/scripting/reference.groovy), with the only difference being that I simplified the AttributesRO section, in order to test, first, with a more simple version, then add complexity gradually.
+The actions that I'm using: 
+Those 2 from https://github.com/bapo2/gpt-actions Github File Lister, Github File Reader
+
+The files that I'm using to feed the GPT: none (it seems that actions work better)
 
 If you manage to make improvements in the GPT, please share it, so we can collectively work on it.
 
