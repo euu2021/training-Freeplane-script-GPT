@@ -16,6 +16,21 @@ Things that I've seem the GPT trying, but are wrong and don't work:
 def node = c.node
 ```
 
+## How to retrieve all the nodes in the map
+
+Those options work:
+
+`c.findAll()`
+
+`node.mindMap.root.findAll()`
+
+`c.selected.mindMap.root.findAll()`
+
+
+Things that I've seem the GPT trying, but are wrong and don't work:
+
+`c.selected.mindMap.findAll()`
+
 ## Property-style access for node properties and attributes
 Pay special attention to styling properties, such as background color, border color, and others. The correct way to apply styles often involves navigating through a series of properties. For example, to set the border color, use node.style.border.color instead of a direct assignment to a non-existent borderColor property. Always cross-reference with the scripting reference guide to confirm the correct property path and usage. For example, to use the clear method in the attributes: "node.attributes.clear()". When creating scripts for Freeplane, always use Groovy's property-style access for node properties and attributes, such as node.attributes.set('key', 'value') for adding or modifying node attributes.
 Example of  Interfaces in which it is relevant:
