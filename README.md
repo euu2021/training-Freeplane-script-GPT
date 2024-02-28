@@ -6,7 +6,9 @@
 
 - This is the chat bot (Requires ChatGPT Plus): https://chat.openai.com/g/g-GHr7occhP-freeplane-scripts-creator
 
-The bot uses actions to communicate with the Github repositories (see bellow), so it will ask for permissions when creating the script.
+The bot uses actions to communicate with the Github repositories (see bellow), so it will ask for permissions when creating the script. 
+
+Important: it is necessary that the bot makes the calls (it will show the message "Talked to api.github.com" or "Talked to raw.githubusercontent.com"). If it fails, it will show the message "Error talking to" and the quality of the code will be bad. If that happens, try to regenerate the answer until the calls are made succesfully.
 
 - The prompt that I'm using: [prompt](prompt)
 
